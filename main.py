@@ -123,5 +123,4 @@ class Dispatch:
 
 if __name__ == '__main__':
     mkdir(DATA_DIR)
-
     Dispatch()

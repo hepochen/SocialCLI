@@ -24,15 +24,3 @@ def init_config(config_json):
 def load_config():
     config_path = get_config_path()
     return json.load(open(config_path))
-
-
-if __name__ == '__main__':
-    init_config({
-        'headers': {
-            "User-Agent": "SocialCLI",
-            "X-Auth-Token": ''
-        },
-        'user': '',
-        'repo_name': '',
-        'repo_id': ''
-    })  # You should fill the blank

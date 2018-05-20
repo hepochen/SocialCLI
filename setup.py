@@ -18,7 +18,7 @@ setup(
     scripts=[],
     entry_points={
         'console_scripts': [
-            'society = SocialCLI.main:main'
+            'society = SocialCLI.command_line:start'
         ]
     },
     zip_safe=False

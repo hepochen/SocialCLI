@@ -40,7 +40,7 @@ class society:
 
     def create_doc(self, title):
         api = self._get_api(CREATE_DOC_API)
-        post(api, {'title': title})
+        post(api, {'title': title, 'body': ''})
 
     def _get_api(self, api_template, **kwargs):
         return api_template.format(
